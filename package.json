@@ -1,0 +1,21 @@
+{
+  "name": "3d-landing-vite",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "tailwindcss": "^4.3.3",
+    "vite": "^7.3.6"
+  },
+  "dependencies": {
+    "@tailwindcss/oxide-win32-x64-msvc": "^4.3.3",
+    "gsap": "^3.15.0",
+    "three": "^0.185.1"
+  }
+}

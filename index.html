@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="stylesheet" href="/src/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3d-landing-vite</title>
+  </head>
+ <body class="bg-black text-white font-sans">
+  <section id="hero" class="relative h-screen">
+  <canvas id="hero-canvas" class="absolute top-0 left-0 w-full h-full"></canvas>
+  <div id="hero-content" class="absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center">
+    <h1 class="text-6xl font-bold mb-4">Your Headline Here</h1>
+    <p class="text-xl text-gray-400 mb-4">Your Subheadline Here</p>
+    <button class="px-8 py-3 bg-white text-black font-medium rounded-full hover:bg-gray-200 transition-colors duration-300">Get Started</button>
+  </div>
+</section>
+
+<section id="features" class="h-screen flex justify-center items-center">
+  <h2 class="text-5xl font-bold">Features Section</h2>
+</section>
+
+<section id="about" class="h-screen flex justify-center items-center">
+  <h2 class="text-5xl font-bold">About Section</h2>
+</section>
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
